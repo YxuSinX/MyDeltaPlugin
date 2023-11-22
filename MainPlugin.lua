@@ -36,7 +36,7 @@ function getRandomLetter()
 end
 
 function executor()
-    local strings = {"Project Ligma", "Synape x", "Project Stigma", "Project Potato", "Fluxus", "Hydrogen", "Delta", "Codex", "Nil executor", "Unknown", "Evon", "Celery", "Electron", "Arceus x", "Comet", "Oxygen U", "Krnl", "Furk Ultra", "Trigon Evo", "Valyse", "Atonix", "RC7", "JJsploit", "ProtonSmasher"}
+    local strings = {"Project Ligma", "Synapse X", "Project Stigma", "Project Potato", "Fluxus", "Hydrogen", "Delta", "Codex", "Nil executor", "Unknown", "Evon", "Celery", "Electron", "Arceus x", "Comet", "Oxygen U", "Krnl", "Furk Ultra", "Trigon Evo", "Valyse", "Atonix", "RC7", "JJsploit", "ProtonSmasher"}
     return strings[math.random(1, #strings)]
 end
 
